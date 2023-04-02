@@ -1,0 +1,51 @@
+html {
+  font-family: sans-serif;
+  background-color: rgb(190, 190, 190);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.side {
+  fill: rgb(190, 190, 190);
+}
+caption {
+  padding: 10px;
+}
+svg {
+  background-color: white;
+  border: 1px solid rgb(190, 190, 190);
+  width: 700px;
+  height: 600px;
+  margin: center;
+  text-align: center;
+}
+#line {
+  stroke: rgb(190, 190, 190);
+  stroke-width: 1;
+}
+button {
+  background-color: #4cb651;
+  color: white;
+  border-color: white;
+  border-radius: 20%;
+  width: 60px;
+  height: 30px;
+  position: left;
+}
+.elevator {
+  width: 30;
+  height: 35;
+  position: absolute;
+}
+
+div {
+  position: relative;
+  text-align: center;
+}
+rect {
+  fill: transparent;
+}

@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>Elevator</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div>
+      <h2>Elevator Exersice</h2>
+      <div>
+        <svg>
+          <rect class="side" x="600" y="0" width="100" height="700" />
+          <rect class="side" x="0" y="0" width="100" height="700" />
+
+          <!--elevators lines-->
+          <line id="line" x1="100" y1="0" x2="100" y2="700"></line>
+          <line id="line" x1="200" y1="0" x2="200" y2="700"></line>
+          <line id="line" x1="300" y1="0" x2="300" y2="700"></line>
+          <line id="line" x1="400" y1="0" x2="400" y2="700"></line>
+          <line id="line" x1="500" y1="0" x2="500" y2="700"></line>
+
+          <!--floors lines-->
+          <line id="line" x1="100" y1="60" x2="600" y2="60"></line>
+          <line id="line" x1="100" y1="120" x2="600" y2="120"></line>
+          <line id="line" x1="100" y1="180" x2="600" y2="180"></line>
+          <line id="line" x1="100" y1="240" x2="600" y2="240"></line>
+          <line id="line" x1="100" y1="300" x2="600" y2="300"></line>
+          <line id="line" x1="100" y1="360" x2="600" y2="360"></line>
+          <line id="line" x1="100" y1="420" x2="600" y2="420"></line>
+          <line id="line" x1="100" y1="480" x2="600" y2="480"></line>
+          <line id="line" x1="100" y1="540" x2="600" y2="540"></line>
+
+          <!--floors text-->
+          <text x="70" y="40" fill="black">9th</text>
+          <text x="70" y="100" fill="black">8th</text>
+          <text x="70" y="160" fill="black">7th</text>
+          <text x="70" y="220" fill="black">6th</text>
+          <text x="70" y="280" fill="black">5th</text>
+          <text x="70" y="340" fill="black">4th</text>
+          <text x="70" y="400" fill="black">3rd</text>
+          <text x="70" y="460" fill="black">2nd</text>
+          <text x="70" y="520" fill="black">1st</text>
+          <text x="0" y="580" fill="black">Ground Floor</text>
+
+          <!--buttons-->
+          <foreignObject x="620" y="15" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f9">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="75" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f8">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="135" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f7">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="195" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f6">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="255" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f5">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="315" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f4">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="375" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f3">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="435" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f2">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="495" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f1">Call</button>
+          </foreignObject>
+          <foreignObject x="620" y="555" width="60" height="40">
+            <button onclick="upAndDown(event)" id="button-f0">Call</button>
+          </foreignObject>
+
+          <!--elevators-->
+            <image
+              xlink:href="icons8-elevator.svg"
+              fill="#000000"
+              x="135"
+              y="560"
+              height="30"
+              width="35"
+              class="elevator"
+              id="elevator1"
+            >
+            </image>
+            <image
+            xlink:href="icons8-elevator.svg"
+            fill="#000000"
+             x="235"
+             y="560"
+            height="30"
+            width="35"
+            class="elevator"
+             id="elevator2"
+            >
+        </image>
+<image
+xlink:href="icons8-elevator.svg"
+fill="#000000"
+x="335"
+y="560"
+height="30"
+width="35"
+class="elevator"
+id="elevator3"
+>
+</image>
+<image
+xlink:href="icons8-elevator.svg"
+fill="#000000"
+x="435"
+y="560"
+height="30"
+width="35"
+class="elevator"
+id="elevator4"
+>
+</image>
+<image
+xlink:href="icons8-elevator.svg"
+fill="#000000"
+x="535"
+y="560"
+height="30"
+width="35"
+class="elevator"
+id="elevator5"
+>
+</image>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
